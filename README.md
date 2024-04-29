@@ -9,7 +9,7 @@ This NPM package provides a function to decode SigFox payload data for a sewage 
 You can install this package via NPM:
 
 ```bash
-npm install sigfox-water-flow-decoder
+npm i bigetron-sewage-decoder
 ```
 
 ## Usage

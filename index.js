@@ -13,7 +13,11 @@ function decode(scaledDistance, invertLevel, diameter, slope, roughnessCoefficie
   let n = roughnessCoefficient;
   let Q = (1.0 / n) * A * Math.pow(Rh, 2 / 3) * Math.pow(S, 0.5) * 60 * 60;
 
-  return Q;
+  if (isNaN(Q)) {
+    return null;
+  } else {
+    return Q;
+  }
 }
 
 module.exports = decode;
