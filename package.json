@@ -1,6 +1,6 @@
 {
   "name": "bigetron-sewage-decoder",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Simple script that takes in a SigFox payload with additional parameters and decode the data accordingly",
   "main": "index.js",
   "scripts": {
