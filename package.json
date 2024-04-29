@@ -1,0 +1,24 @@
+{
+  "name": "bigetron-sewage-decoder",
+  "version": "1.0.0",
+  "description": "Simple script that takes in a SigFox payload with additional parameters and decode the data accordingly",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Bigen-Digital-Water-Systems/bigetron-sewage-decoder.git"
+  },
+  "keywords": [
+    "iot",
+    "decode",
+    "sewer"
+  ],
+  "author": "Hanno Vorster",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Bigen-Digital-Water-Systems/bigetron-sewage-decoder/issues"
+  },
+  "homepage": "https://github.com/Bigen-Digital-Water-Systems/bigetron-sewage-decoder#readme"
+}
