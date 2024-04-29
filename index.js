@@ -1,3 +1,6 @@
+/*
+  This function takes in a SigFox payload with additional parameters and decode the data accordingly
+*/
 function decode(scaledDistance, invertLevel, diameter, slope, roughnessCoefficient) {
   let waterLevel = invertLevel - scaledDistance;
   let r = diameter / 2;
